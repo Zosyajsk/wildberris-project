@@ -3,6 +3,9 @@ const getGoods = () => {
   const more = document.querySelector(".more");
 
   const renderGoods = (goods) => {
+
+
+    
     const goodsContainer = document.querySelector(".long-goods-list");
     goodsContainer.innerHTML = "";
 
